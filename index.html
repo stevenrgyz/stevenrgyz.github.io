@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listo para viajar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+    <div class="header">
+        <img src="img/LOGO WEB 2.png" alt="Logo">
+        <a href="https://cdadepasto.com/?page_id=9" target="_blank">Servicios</a>
+    </div>
+    <div class="hero">
+        <div class="gradient"></div>
+        <div class="background"></div>
+    </div>
+    <div class="content">
+        <h1 class="titulo" data-aos="fade-up">ESTA SEMANA SANTA</h1>
+        <p class="Texto" data-aos="fade-up" data-aos-delay="50">Haz tu revisión técnico-mecánica antes de viajar y asegúrate de que tu auto esté en las mejores condiciones.</p>
+        <h2 data-aos="fade-up" data-aos-delay="100">HORARIOS <br> DE SEMANA SANTA</h2>
+        <div class="schedule-container">
+            <div class="schedule-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="day">Lunes a Miércoles</div>
+                <div class="time">7:00 a.m. a 7:00 p.m.</div>
+            </div>
+            <div class="schedule-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="day">Jueves</div>
+                <div class="time">8:00 a.m. a 1:00 p.m.</div>
+            </div>
+            <div class="schedule-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="day">Viernes</div>
+                <div class="time">No habrá atención.</div>
+            </div>
+            <div class="schedule-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="day">Sábado</div>
+                <div class="time">7:00 a.m. a 6:00 p.m.</div>
+            </div>
+            <div class="schedule-card" data-aos="fade-up" data-aos-delay="350">
+                <div class="day">Domingo</div>
+                <div class="time">8:00 a.m. a 1:00 p.m.</div>
+            </div>
+        </div>
+        <h2 data-aos="fade-up" data-aos-delay="400">TARIFAS RTM 2024</h2>
+        <div class="tarifas-container">
+            <div class="tarifa-card" data-aos="fade-up" data-aos-delay="450">
+                <h3>Livianos Particulares</h3>
+                <img src="img/caroo.png" alt="Tarifa 1">
+                <p>Realizamos todo el proceso de Revisión Técnico Mecánica por:</p>
+                <p class="precio">$300.909</p>
+            </div>
+            <div class="tarifa-card" data-aos="fade-up" data-aos-delay="500">
+                <h3>Motos</h3>
+                <img src="img/moto.png" alt="Tarifa 2">
+                <p>Realizamos todo el proceso de Revisión Técnico Mecánica por:</p>
+                <p class="precio">$205.830</p>
+            </div>
+            <div class="tarifa-card" data-aos="fade-up" data-aos-delay="550">
+                <h3>Livianos públicos</h3>
+                <img src="img/taxi.png" alt="Tarifa 3">
+                <p>Realizamos todo el proceso de Revisión Técnico Mecánica por:</p>
+                <p class="precio">$300.309</p>
+            </div>
+            <div class="tarifa-card" data-aos="fade-up" data-aos-delay="600">
+                <h3>Motocarros</h4>
+                <img src="img/motocarro.png" alt="Tarifa 4">
+                <p>Realizamos todo el proceso de Revisión Técnico Mecánica por:</p>
+                <p class="precio">$300.309</p>
+            </div>
+        </div>
+        <h2 data-aos="fade-up" data-aos-delay="650">¡AGENDA TU CITA!</h2>
+        <a href="https://cdadepasto.com/?page_id=2066" class="cta-button" data-aos="fade-up" data-aos-delay="700">YA MISMO</a>
+    </div>
+    <footer class="footer">
+        <div class="bubbles">
+            <div class="bubble" style="--size:2rem; --distance:10rem; --position:50%; --time:3s; --delay:-1s;"></div>
+        </div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="img/gps.png" alt="Dirección" class="icon">
+                Cra 25 #20-65 6to piso <br> Edificio
+            </div>
+            <div class="contact-item">
+                <img src="img/telefono.png" alt="Teléfono" class="icon">
+                333 0 333 551 <br> 318 866 83 26
+            </div>
+        </div>
+        <div class="social-media">
+            <img src="img/facebook.png" alt="Facebook" class="icon">
+            <img src="img/instagram.png" alt="Instagram" class="icon">
+        </div>
+        <svg style="position:fixed; top:100vh">
+            <defs>
+                <filter id="blob">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"></feGaussianBlur>
+                </filter>
+            </defs>
+        </svg>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600, // Duración de la animación en milisegundos
+            offset: 200, // Desplazamiento en píxeles desde el punto de activación
+        });
+    </script>
+</body>
+</html>
